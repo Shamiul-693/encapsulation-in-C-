@@ -1,0 +1,20 @@
+using System;
+
+class Student
+{
+public string Name
+{
+  get;
+  set;
+}
+}
+
+class Test
+{
+static void Main(string[] args)
+{
+  Student s = new Student();
+  s.Name = "shamiul islam";
+  Console.WriteLine(s.Name);
+}
+}
